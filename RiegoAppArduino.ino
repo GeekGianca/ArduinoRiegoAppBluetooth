@@ -26,7 +26,7 @@ void loop()
     if (VarChar == '1')
     {
       digitalWrite(13, HIGH);
-      digitalWrite(relay, HIGH);
+      digitalWrite(relay, LOW);
       delay(100);
       ModBluetooth.print("Riego Encendido");
       Serial.println("Riego Encendido");
