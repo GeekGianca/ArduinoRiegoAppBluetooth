@@ -35,7 +35,7 @@ void loop()
     if (VarChar == '0')
     {
       digitalWrite(13, LOW);
-      digitalWrite(relay, LOW);
+      digitalWrite(relay, HIGH);
       delay(100);
       ModBluetooth.print("Riego Apagado#");
       Serial.println("Riego Apagado#");
